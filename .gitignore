@@ -1,0 +1,78 @@
+# Environment variables (contains sensitive information)
+.env
+.env.*
+!.env.example
+
+# Instagram session (contains auth cookies)
+instagram_session
+instagram_session*
+session-*
+
+# Downloads directory
+downloads/
+
+# Debug / log files
+*.log
+debug-*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# IDE / editor files
+.vscode/
+.idea/
+.history/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
